@@ -1,0 +1,25 @@
+install.packages("UsingR")	# that is how packages are installed
+installed.packages()	# shows the installed packages
+row.names(installed.packages())
+
+library(UsingR) # load the library
+
+simple.eda(v1)
+
+?sum	# see info for function sum
+help("sum")	# same
+
+??linear	#search in R for linear
+
+as.numeric(), as.date(), as.logical() etc. converts to the respective type
+
+is.numeric(variable), is.character() etc. returns logical whether variable is numeric or character etc.
+
+we count indexing from 1
+
+v1[which(v1>4)] returns indices of v1 which elements are > 4
+
+seq(1, 5, by = 0.25)
+length()
+
+
