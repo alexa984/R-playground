@@ -22,7 +22,7 @@ song[[2]]
 song[c(FALSE, TRUE, TRUE, FALSE)]  # subset by logicals
 
 friends = c("Alex", "Bobby", "Jim")
-song$sent = friends  # $ can be used only with named lists. Equivalent to `song[["sent"]] = friends``
+song$sent = friends  # $ can be used only with named lists. Equivalent to `song[["sent"]] = friends
 
 similar_song = list(title = "Some song2", duration = 190, track=5)
 

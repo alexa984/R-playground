@@ -22,4 +22,5 @@ v1[which(v1>4)] returns indices of v1 which elements are > 4
 seq(1, 5, by = 0.25)
 length()
 
+in functions, it is not needed to type return. By default it returns the last line from the function scope
 

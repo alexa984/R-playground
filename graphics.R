@@ -10,3 +10,4 @@ sport_cars = Cars93$Type == "Sporty"
 sporty = Cars93[sport_cars, ]
 hist(sporty$Horsepower, breaks = 30, col = "tomato")
 
+  
